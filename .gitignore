@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Data & Logs (Generated at runtime, do not submit)
+data/raw/*.csv
+data/processed/*.parquet
+*.log
+
+# Airflow
+airflow-webserver_config.py
+webserver_config.py
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
